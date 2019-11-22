@@ -1,0 +1,19 @@
+R10.2: Constructors of SavingsAccount-- public SavingsAccount(double rate)
+	   Inherited methods from BankAccount-- public void deposit(double amount), public void withdraw(double amount), public double getBalance(), public void transfer(double amount, BankAccount other)
+	   Methods added to SavingsAccount-- public void addInterest().
+R10.4: a. Super-- Employee, Sub-- Manager
+	   b. Super-- Polygon, Sub-- Triangle
+	   c. Super-- Student, Sub-- GraduateStudent
+	   d. Super-- Person, Sub-- Student
+	   e. No relationship
+	   f. Super-- BankAccount, Sub-- Checking Account
+	   g. Super-- Vehicle, Sub-- Car
+	   h. Super-- Vehicle, Sub-- Minivan
+	   i. Super-- Car, Sub-- Minivan
+	   j. Super-- Vehicle, Sub-- Truck
+R10.7: Vehicle <-- Truck <-- PickupTruck
+						 <-- SportUtilityVehicle
+			   <-- Bicycle <-- Motorcycle
+			   <-- Car <-- Sedan
+			   		   <-- Coupe
+			   		   <-- Minivan

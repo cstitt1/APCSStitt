@@ -1,0 +1,37 @@
+R5.8: False. If the first is false, the second will not be tested, so only one of them might matter, meaning it is not the same.
+R5.12: "==" compares the location of two string objects while the "equals" method compares the actual string objects' values.
+R5.13: The first will test the locations of the objects. The second will compare the objects' instance fields. 
+R5.14: An instance fields cannot be null, so this would always be false, whereas r==null could be true. It would never run the inside of the if block.
+
+R5.3: The if-else if-else tests one and if false tests the next. The nested if will test each of them inside the block.
+		double x = Math.random();
+		
+		//If-else if-else
+		if (x>.5) {
+		} else if (x==0) {
+		} else {
+		}
+		
+		//Nested if
+		if (x>=0) {
+			if (x>.5) {
+			}
+		}
+		
+R5.4:	double x = Math.random();
+		//Order unimportant:
+		if (x>.5) {
+		} else if (x==0) {
+		} else {
+		}
+		
+		//Order important:
+		if (x>.5) {
+		} else if (x>0) {
+		} else {
+		}
+R5.9: If x is greater than 0, then both lines will run for the first code while only the first line will run for the second code.
+R5.10: x<0 || y<0
+	   x==0 && y==0
+	   !country.equals("US") || country.equals("HI") || couuntry.equals("AK")
+	   x%4==0 && (x%100==0 || x%400==0)

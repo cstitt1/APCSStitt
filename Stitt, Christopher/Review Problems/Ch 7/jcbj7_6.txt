@@ -1,0 +1,4 @@
+R7.17: f. False
+	   g. True
+	   h. True
+R7.18: a. False

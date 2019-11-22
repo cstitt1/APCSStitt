@@ -1,0 +1,85 @@
+R6.2: 0000000000
+	  0123456789
+	  024681012141618
+	  0369121518212427
+	  04812162024283236
+	  051015202530354045
+	  061218243036424854
+	  071421283542495663
+	  081624324048566472
+	  091827364554637281
+R6.3: a. 10
+	  b. 10
+	  c. 10
+	  d. 21
+	  e. Infinite
+	  f. 11
+	  g. 7
+R6.4: int s = 0;
+	  int i = 1;
+	  while (i <= 10) {
+	  	s = s+i;
+	  	i++;
+	  }
+R6.5: int n = 1;
+	  double x = 0;
+	  double s;
+	  while (s > 0.01) {
+	  	s = 1.0 / (n * n);
+	  	x = x + s;
+	  	n++;
+	  }
+R6.7: Boolean Approach: Boolean endLoop = false;
+						while (!endLoop) {
+							String nameOfBridge;
+							if (nameOfBridge == null) {
+								endLoop = true;
+							}
+							double bridgeLength;
+							if (bridgeLength < 0) {
+								endLoop = true;
+							}
+							bridgeLength *= 12;
+							bridgeLength /= 2.54;
+							bridgeLength /= 100;
+							system.out.println(nameOfBridge);
+							system.out.println(bridgeLength);
+						}
+		
+		Break Approach: while (true) {
+							String nameOfBridge;
+							if (nameOfBridge == null) {
+								break;
+							}
+							double bridgeLength;
+							if (bridgeLength < 0) {
+								break;
+							}
+							bridgeLength *= 12;
+							bridgeLength /= 2.54;
+							bridgeLength /= 100;
+							system.out.println(nameOfBridge);
+							system.out.println(bridgeLength);
+						}
+						
+		Method Approach: while (true) {
+							String nameOfBridge;
+							if (nameOfBridge == null) {
+								return false;
+							}
+							double bridgeLength;
+							if (bridgeLength < 0) {
+								return false;
+							}
+							bridgeLength *= 12;
+							bridgeLength /= 2.54;
+							bridgeLength /= 100;
+							system.out.println(nameOfBridge);
+							system.out.println(bridgeLength);
+						}
+The first version is best because the condition in the loop is what controls the loop.
+R6.11: An "off-by-one error" occurs when the value is one more or one less than intended, usually due to illogical
+	   programming. I have had problems where the difference between less than and less than or equals to changes
+	   the entire program.
+R6.12: Symmetric: for (int i = 1; i<= 10; i++)
+	   Asymmetric: for (int i=0; i< str.length(); i++)

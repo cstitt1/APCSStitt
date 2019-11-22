@@ -1,0 +1,6 @@
+1. ChameleonCritter overrides some of the methods called by act.
+2. Because it does not have to override all of makeMove.
+3. Put "Flower flower = new Flower(getColor());" and "flower.putSelfInGrid(getGrid(), getLocation());" to makeMove.
+4. Because it wants to getActors the same way its super class does.
+5. Actor
+6. Using getLocation

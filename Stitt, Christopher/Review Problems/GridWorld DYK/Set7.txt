@@ -1,0 +1,12 @@
+1. act, getActors, processActors, getMoveLocations, selectMoveLocation, makeMove.
+2. Initializing the list of actors via getActors.
+   processing the actors via processActors.
+   Initializing the list of possible move locations wit getMoveLocations
+   Selecting a move location with selectMoveLocation
+   Moving to the selected location via makeMove
+3. It should if it wants to look elsewhere for actors to process.
+4. Based on location, color, and critter type
+5. getMoveLocations(): Gets all of the possible places that the critter can move to.
+   selectMoveLocation(ArrayList<Location> locs): Randomly determines which location to move to.
+   makeMove(Location locs): Moves that critter to the selected location or removes it from the grid
+6. It inherits Actor's default constructor

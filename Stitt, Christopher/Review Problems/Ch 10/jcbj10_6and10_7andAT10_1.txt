@@ -1,0 +1,5 @@
+R10.11: The second one because it decides which g() method to call
+R10.12: The first is early. The second is late.
+R10.14: Private. Package. Public.
+R10.15: Public. Yes.
+R10.17: They can be accessed anywhere. Yes.

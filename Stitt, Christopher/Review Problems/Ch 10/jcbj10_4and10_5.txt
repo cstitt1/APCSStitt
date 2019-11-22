@@ -1,0 +1,17 @@
+R10.3:You can convert from a subclass to a superclass with a cast: Shape s = new Shape();
+																   Rectangle r = (Rectangle) s;
+	  You can convert from a superclass to a subclass without casting: Rectangle r = new Rectangle();
+	  																   Shape s = r;
+R10.5: a. Illegal
+	   b. Legal
+	   c. Legal
+	   d. Illegal
+R10.9: a. true
+	   b. true
+	   c. false
+	   d. true
+	   e. true
+	   f. true
+	   g. true
+R10.10: Use super to call the superclass constructor(s) and the superclass method(s).
+		Use this to call that class's constructor(s) and its method(s).

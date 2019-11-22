@@ -1,0 +1,5 @@
+R9.1: a
+R9.2: b
+R9.3: a, c, h
+R9.4: When casting to primitive types, you agree to possibly lose information. When casting object types, there is a risk of causing an exception. 
+R9.6: a, b, f

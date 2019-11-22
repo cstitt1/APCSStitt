@@ -1,0 +1,5 @@
+R9.7: It is polymorphism because there are multiple getBounds() methods that could be called.
+
+R9.9: For the first DataSet, you need to implement Measurable and code its methods.
+	  For the second, you just need to call the method for that object and have a class to measure it that implements measurer.
+	  The second is easier because it requires less complicated code and it has more uses.

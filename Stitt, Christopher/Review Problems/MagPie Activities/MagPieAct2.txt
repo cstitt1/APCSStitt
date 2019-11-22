@@ -1,0 +1,16 @@
+MagPie Activity 2 exercises:
+
+Prompt: My mother and I talked last night
+Response: Tell me more about your family.
+Prompt: I said no!
+Response: Why so negative?
+Prompt: The weather is nice
+Response: Do you really think so?
+Prompt: Do you know my brother?
+Response: Why so negative?
+
+When more than one keyword appears in the string it acts based on the last keyword searched for.
+These responses can be prioritized by ordering which word it searches for first.
+
+When a keyword is in another word, it works with that word as if it were alone. This causes
+problems, like seeing the word "no" in "know".

@@ -1,0 +1,7 @@
+1. Because it processes actors the same way Critter does.
+2. It calls getActors and super.processActors. No because it cannot eat all actors.
+3. Because it can only move in certain directions.
+4. (3,3) and (3,5)
+5. They both move in a randomly selected location, but CrabCritter restricts the number of possible directions.
+6. It if cannot move right or left.
+7. Because they are Critters.

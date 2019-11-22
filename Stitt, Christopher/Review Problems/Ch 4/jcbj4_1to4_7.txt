@@ -1,0 +1,33 @@
+R4.4: See code. No because there are larger values there.
+R4.5: See code. Yes because it cuts off the decimal part.
+R4.6: It does this due to rounding errors in double-minus-int subtraction. They could change the 20 to a double (20.00).
+R4.7: For the first part, it will just cut off the decimal. The second part will round the number before making it an int.
+R4.8: For the first part, it will bump it to the next number. The second part will round the number before making it an int.
+R4.15: A variable whose value cannot be changed. Yes you can declare it then initialize it.
+
+R4.1: s = s0 + v0*t + .5*g*t*t
+	  G = 4*Math.PI*Math.PI*((a*a*a)/(p*p*(m1+m2)))
+	  FV = PV * Math.pow((1+INT/100),YRS)
+	  c = Math.sqrt(a*a+b*b-(2*a*b*Math.cos(C)))
+R4.3: It will divide by two then multiply that result by a.
+R4.10: The first computes the int 4. The second computes the string "22".
+R4.13: n%10 and (int) (n/Math.pow(10,(int)(Math.log(n)+1))).
+R4.16: a: 14.25
+	   b: 6
+	   c: 12.5
+	   d: 1.41
+	   e: 3
+	   f: 1
+	   g: "HelloWorld"
+	   h: Error
+	   i: -3
+	   j: "el"
+	   k: 10
+
+R4.11: a. True
+	   b. False
+	   c. True
+R4.12: s.substring(0,1);
+	   s.substring(s.length()-1,s.length());
+	   s.substring(1,s.length());
+	   s.substring(0,s.length()-1);

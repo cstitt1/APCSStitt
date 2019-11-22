@@ -1,0 +1,9 @@
+R7.17: a. True
+	   b. True
+	   c. False
+	   d. True
+R7.13: a. One where the elements are read to create one number.
+	   b. One where each element is modified by a certain amount.
+	   c. One where a number is turned into an array of its digits.
+R7.15: Parallel arrays access elements that could be part of an object. Since they could be combined into an array of object.
+	   They could be combined into an array of objects.

@@ -1,0 +1,28 @@
+Chapter 2 Review Exercises:
+
+Java Concepts & Big Java 2.1 - 2.3:
+R2.5: In Java, the "=" symbol means that something references to something else. In math, it means that something equals or is something else.
+
+Java Concepts & Big Java 2.4 - 2.7:
+R2.4: new Rectangle(5,5,10,10);
+	  Rectangle example = new Rectangle(5,5,10,10);
+	  
+R2.7: new Rectangle(100,100,50,50);
+	  "Hello, Dave!";
+
+R2.8: Rectangle answer = new Rectangle(100,100,50,50);
+	  String hd = "Hello, Dave!";
+
+R2.9: a. There is no constructor to finish the declaration. 
+      b. The word new is missing, so it is not seen as an object.
+      c. There is no constructor, so there are no coordinates to change with the translate method.
+      d. First, there needs to be the class name in front of the object variable. 
+         Second, translate does not work on a object without coordinates.
+         Third,  translate takes two int's, not one string.
+         
+Java Concepts & Big Java 2.8 - 2.10:
+R2.3: An object is a variable whose type is a class. A class is a programmer-defined data type.
+
+R2.10: Two accessors are getX() and getY(). Two mutators are setX() and setY().
+
+R2.11: It extends the rectangle so that one point on it is (0,0).

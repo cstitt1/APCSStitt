@@ -1,0 +1,17 @@
+Chapter 3 Review Exercises:
+
+Java Concepts & Big Java 3.1 - 3.3:
+R3.1: The parameter is not strictly necessary because the object can be made without it.
+R3.9: See r3_9 Package.
+
+Java Concepts & Big Java 3.4 - 3.5, 3.7:
+R3.2: The first makes just a variable. The second makes a variable that directs to an object.
+R3.3: The first makes just an object. The second makes a variable that directs to an object.
+R3.11: While both only live for the length of the method run time, one is initialized by the value put into the method
+	   and the other is done through the regular initialization process.
+	   
+R3.12: One is initialized by the usual process and lives for the length of the method run time, while the other lives for
+	   the class run time and is initialized by the usual process.
+
+Java Concepts & Big Java 3.6, 3.8:
+R3.7: It refers to the method's implicit parameter. It would be used to clarify what the variable the reference is.

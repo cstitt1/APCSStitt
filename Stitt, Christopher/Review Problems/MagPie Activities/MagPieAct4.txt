@@ -1,0 +1,17 @@
+MagPie Activity 4 Exercises:
+
+Start: Hello, let's talk.
+Prompt: I want to build a robot.
+Response: What would it mean to build a robot?
+Prompt: I want to understand French.
+Response: What would it mean to understand French?
+Prompt: Do you like me?
+Response: What makes you think that I like you?
+Prompt: You confuse me
+Response: What makes you think that I confuse you?
+
+Possible Errors:
+	"Want": "I want to be happy" causes "Would you really be happy if you had to be happy?"
+		Fix: Check for a "to" after the "want".
+	"I-you": Putting in the past tense of verb "v" would cause tense disagreement.
+		Fix: Check for "-ed" at the end of the word.
